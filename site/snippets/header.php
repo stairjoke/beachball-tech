@@ -3,7 +3,7 @@
 		<ol>
 			<li>
 				<ul>
-					<li><a href="<?= $site->url() ?>" class="button ghost"><img src="/assets/logo.jpg" alt="Beachball.tech logo, pencil sketch" class="icon lt triple-height">Beachball.tech</a></li>
+					<li><a href="<?= $site->url() ?>" class="button ghost"><img src="/assets/logo.jpg" alt="Beachball.tech logo" class="icon lt triple-height">Beachball.tech</a></li>
 				</ul>
 			</li>
 			<li>
