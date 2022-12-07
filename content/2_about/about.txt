@@ -6,7 +6,11 @@ Text:
 ## Hi,
 I'm Wenzel, a UX & UI Designer, Technologist, and Digital Nomad. I write this blog about design, technology, and more.
 
-Questions, comments, thoughts? Send an email hello@beachball.tech
+**Questions, comments, thoughts?**
+Send an email hello@beachball.tech
+
+**Technical issue, feature request, etc?**
+Please search existing issues first, then create a new one: (link: https://github.com/stairjoke/beachball-tech/issues text: Beachball.tech issues on Github. target: _blank)
 
 ----
 
