@@ -1,0 +1,13 @@
+Title: About
+
+----
+
+Text:
+## Hi,
+I'm Wenzel, a UX & UI Designer, Technologist, and Digital Nomad. I write this blog about design, technology, and more.
+
+Questions, comments, thoughts? Send an email hello@beachball.tech
+
+----
+
+Uuid: 1keZDCasdS08ljwJ
