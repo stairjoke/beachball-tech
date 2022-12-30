@@ -21,9 +21,11 @@
 	?>
 
 	
-	<meta content="Geht nicht? Gibt’s nicht. Als programmierender UI & UX Designer bin ich die Eierlegende Wollmilchsau, die gerade für kleine Unternehmen Kosten spart." name="description">
+	<meta content="<?= $site->OGDescription() ?>">
 	<meta content="Wenzel Massag" name="author">
 	<meta content="index, follow" name="robots">
+	
+	<link rel="alternate" type="application/json" title="Latest posts" href="<?= site()->url() ?>/feed"/>
 	
 	
 	<link href="/appIcons/apple-180.png" rel="apple-touch-icon" sizes="180x180">

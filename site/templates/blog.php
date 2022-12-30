@@ -38,9 +38,9 @@
 										$pubdateFormatted = "Empty";
 									}
 									$pubdateFormattedLast = $pubdateFormatted;
-									$pubdateFormatted = $post->published()->toDate('l, j. F o');
+									$pubdateFormatted = $post->date()->toDate('l, j. F o');
 									
-									if(strcmp($post->published()->toDate('j-n-o'), date('j-n-o', time())) == 0) {
+									if(strcmp($post->date()->toDate('j-n-o'), date('j-n-o', time())) == 0) {
 										//Pubdate = today
 										$pubdateFormatted .= ' <span class="today-flag">today</span>';
 									}
