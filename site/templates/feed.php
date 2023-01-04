@@ -13,7 +13,13 @@
 	//The feed declared in the URL must exist as a Kirby collection
 	$items = $kirby->collection($feed);
 	
-	//Build a DOM tree for the RSS feed
-	//Export the DOM tree as RSS/XML
-	echo $items;
+	//---Return XML file that is built once or create XML on the fly---
+	//A: Build a DOM tree for the RSS feed -> Echo it
+	//B: Check if XML file exists and is more recent than most recent post. Generate file if it is old.
+	
+	//Blog is not getting many views yet, using A for now.
+	
+	//$rss = new DOMDocument();
+	//Do stuff
+	//echo $rss->saveXML();
 ?>
