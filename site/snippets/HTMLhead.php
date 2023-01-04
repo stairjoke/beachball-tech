@@ -3,10 +3,10 @@
 	<meta property="og:site_name" content="<?= $page->title() ?>">
 	<meta property="og:url" content="<?= $page->url() ?>">
 	<meta property="og:description" content="<?php
-		if($page->ogdescription()->isNotEmpty()) {
-			echo($page->ogdescription());
+		if($page->description()->isNotEmpty()) {
+			echo($page->description());
 		}else{
-			echo($site->ogdescription());
+			echo($site->description());
 		}
 	?>">
 	<meta property="og:type" content="blog">
@@ -15,13 +15,13 @@
 			echo('<meta property="og:image" content="'. $page->ogimage() .'">');
 			echo('<meta content="'. $page->ogimageALT() .'" property="og:image:alt">');
 		}else{
-			echo('<meta property="og:image" content="/OGDefault.png">');
+			echo('<meta property="og:image" content="/default.png">');
 			echo('<meta content="Beachball.tech Logo" property="og:image:alt">');
 		}
 	?>
 
 	
-	<meta content="<?= $site->OGDescription() ?>">
+	<meta content="<?= $site->description() ?>">
 	<meta content="Wenzel Massag" name="author">
 	<meta content="index, follow" name="robots">
 	

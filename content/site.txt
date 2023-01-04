@@ -1,5 +1,5 @@
 Title: Beachball.tech
 ----
-OGDescription: A blog about design and technology.
+Description: A blog about design and technology.
 ----
 Copyright: © 2022, Wenzel Massag.

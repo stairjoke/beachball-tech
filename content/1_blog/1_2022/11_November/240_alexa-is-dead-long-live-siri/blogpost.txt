@@ -7,7 +7,7 @@ Date: 2022-11-24
 ----
 
 Teaser:
-> For any task X on a new platform, if doing X is not far easier than just doing X on your phone, X is never going to be a reason to use that new platform.<a href=ft1><sup>(John Gruber)</sup></a>
+> For any task X on a new platform, if doing X is not far easier than just doing X on your phone, X is never going to be a reason to use that new platform. (John Gruber)
 
 He's absolutely right here, why would I use a new device to do the same thing in a less convenient way?
 
