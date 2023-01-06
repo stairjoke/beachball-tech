@@ -10,7 +10,7 @@
 			<h1><?= $page->title() ?></h1>
 			<section class="contain">
 				<?php
-				$numberOfpostsToShowonHome = 10;
+				$numberOfpostsToShowonHome = 5;
 				
 				foreach(page('blog')->children()->listed()->flip() as $year) {
 					foreach($year->children()->listed()->flip() as $month) {
